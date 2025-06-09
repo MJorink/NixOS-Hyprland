@@ -1,1 +1,1 @@
-To be written, fork made for personal use. I am going to try out NixOS.
+I will make a proper readme soon, fork made for personal use because I am going to try out NixOS.
