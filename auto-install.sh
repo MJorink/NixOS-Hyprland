@@ -253,15 +253,15 @@ printf "\n%.0s" {1..3}
 # Cloning Hyprland-Dots repo to home directory
 # KooL's Dots installation
 printf "$NOTE Downloading Hyprland dots from main to HOME directory..\n"
-if [ -d ~/Hyprland-Dots ]; then
-  cd ~/Hyprland-Dots
+if [ -d ~/hypr-dotfiles ]; then
+  cd ~/hypr-dotfiles
   git stash
   git pull
   chmod +x copy.sh
   ./copy.sh 
 else
-  if git clone --depth 1 https://github.com/JaKooLit/Hyprland-Dots ~/Hyprland-Dots; then
-    cd ~/Hyprland-Dots || exit 1
+  if git clone --depth 1 https://github.com/MJorink/hypr-dotfiles ~/hypr-dotfiles; then
+    cd ~/hypr-dofiles || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
