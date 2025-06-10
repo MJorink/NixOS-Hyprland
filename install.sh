@@ -231,8 +231,8 @@ if [ -d ~/Hyprland-Dots ]; then
   chmod +x copy.sh
   ./copy.sh 
 else
-  if git clone --depth 1 https://github.com/MJorink/hypr-dotfiles ~/Hyprland-Dots; then
-    cd ~/Hyprland-Dots || exit 1
+  if git clone --depth 1 https://github.com/MJorink/hypr-dotfiles ~/hypr-dotfiles; then
+    cd ~/hypr-dotfiles || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
