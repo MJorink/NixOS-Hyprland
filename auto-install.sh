@@ -261,7 +261,7 @@ if [ -d ~/hypr-dotfiles ]; then
   ./copy.sh 
 else
   if git clone --depth 1 https://github.com/MJorink/hypr-dotfiles ~/hypr-dotfiles; then
-    cd ~/hypr-dofiles || exit 1
+    cd ~/hypr-dotfiles || exit 1
     chmod +x copy.sh
     ./copy.sh 
   else
