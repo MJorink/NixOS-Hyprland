@@ -16,7 +16,6 @@ sh <(curl -L https://github.com/JaKooLit/NixOS-Hyprland/raw/main/auto-install.sh
 ```
 > [!NOTE]
 > pciutils is necessary to detect if you have an Nvidia card. 
-</div?
 </details>
 
 <details>
