@@ -1,3 +1,7 @@
+AS OF NOW NOT TESTED AT ALL, IM STILL WORKING ON IT.
+
+THERE IS A 0.1% CHANCE IT WILL JUST WORK RIGHT NOW.
+
 <summary>📜 1. Using auto install Script: <</summary>
 <br>
 <div id="autoinstall">
