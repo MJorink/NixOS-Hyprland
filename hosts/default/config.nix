@@ -1,8 +1,8 @@
 { config, pkgs, host, username, options, lib, inputs, system, ... }:
 
 let
-  gitUsername = "example";
-  gitEmail = "example@example.com";
+  gitUsername = "JaKooLit"; #You can change these to your own if you want to,
+  gitEmail = "ejhay.games@gmail.com"; # These are configured for pulling with git.
   keyboardLayout = "us";
   browser = "zen-browser";
   terminal = "kitty";
