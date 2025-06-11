@@ -1,1 +1,4 @@
-I will make a proper readme soon, fork made for personal use because I am going to try out NixOS.
+Auto-install (recommended):
+
+    nix-shell -p git vim curl pciutils
+    sh <(curl -L https://github.com/JaKooLit/NixOS-Hyprland/raw/main/auto-install.sh)
