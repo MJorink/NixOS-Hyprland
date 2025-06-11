@@ -73,7 +73,7 @@ answer=${answer:-Y}
 
 if [[ "$answer" =~ ^[Nn]$ ]]; then
     sed -i 's|^\([[:space:]]*\)ags.url = "github:aylur/ags/v1";|\1#ags.url = "github:aylur/ags/v1";|' flake.nix
-    sed -i 's|^\([[:space:]]*\)ags|\1#ags|' hosts/default/packages-fonts.nix
+    sed -i 's|^\([[:space:]]*\)ags|\1#ags|' hosts/default/config.nix
 fi
 
 echo "-----"
@@ -107,7 +107,7 @@ if [ -z "$keyboardLayout" ]; then
   keyboardLayout="us"
 fi
 
-sed -i 's/keyboardLayout\s*=\s*"\([^"]*\)"/keyboardLayout = "'"$keyboardLayout"'"/' ./hosts/$hostName/variables.nix
+sed -i 's/keyboardLayout\s*=\s*"\([^"]*\)"/keyboardLayout = "'"$keyboardLayout"'"/' ./hosts/$hostName/config.nix
 
 echo "-----"
 
