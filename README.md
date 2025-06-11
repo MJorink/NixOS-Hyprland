@@ -51,12 +51,15 @@ sudo nixos-rebuild switch --flake .#hostname
 Once done, you can install the GTK Themes and Hyprland-Dots. Links are above
 
 </div>
+
+
 > [!IMPORTANT]
 > need to download in your home directory as some part of the installer are going back again to ~/NixOS-Hyprland
 
 - *You should stay in this directory for the rest of the install*
 - edit `hosts/default/config.nix` to your liking. Once you are satisfied, ran `./install.sh`
 Now when you want to rebuild the configuration, you have access to an alias called `flake-rebuild` that will rebuild the flake!
+
 
 </details>
 
@@ -80,12 +83,14 @@ git clone --depth 1 https://github.com/JaKooLit/NixOS-Hyprland.git ~/NixOS-Hyprl
 cd ~/NixOS-Hyprland
 ```
 
+
 > [!IMPORTANT]
 > need to download in your home directory as some part of the installer are going back again to ~/NixOS-Hyprland
 
 - *You should stay in this directory for the rest of the install*
 - edit `hosts/default/config.nix` to your liking. Once you are satisfied, ran `./install.sh`
 Now when you want to rebuild the configuration, you have access to an alias called `flake-rebuild` that will rebuild the flake!
+
 
 </details>
 </details>
