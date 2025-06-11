@@ -2,7 +2,7 @@
 
 let
   gitUsername = "JaKooLit"; #You can change these to your own if you want to,
-  gitEmail = "ejhay.games@gmail.com"; # These are configured for pulling with git.
+  gitEmail = "ejhay.games@gmail.com"; # These are just here for pulling with git, any valid username/email will probably work.
   keyboardLayout = "us";
   browser = "zen-browser";
   terminal = "kitty";
